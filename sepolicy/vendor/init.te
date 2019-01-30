@@ -1,0 +1,3 @@
+allow init sensors:process { noatsecure };
+allow init hal_wifi_supplicant:process { noatsecure };
+permissive init;
