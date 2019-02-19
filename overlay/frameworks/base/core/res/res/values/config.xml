@@ -589,4 +589,7 @@
 	
     <!-- Lawnstep -->
     <string name="config_recentsComponentName" translatable="false">ch.deletescape.lawnchair.ci/com.android.quickstep.RecentsActivity</string>
+
+    <!-- Whether to allow sending active app broadcast -->
+    <bool name="config_allowActivePackageBroadcast">true</bool>
 </resources>
