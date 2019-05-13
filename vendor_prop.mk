@@ -361,7 +361,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 #Property to enable display default color mode
 PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.display.enable_default_color_mode=0
+    vendor.display.enable_default_color_mode=1
 
 #Disable Skip Validate
 PRODUCT_PROPERTY_OVERRIDES += \
