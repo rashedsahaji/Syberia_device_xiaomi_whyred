@@ -5,12 +5,12 @@
     "branch": "lineage-16.0-caf-8998"
   },
    {
-    "repository": "LineageOS/android_hardware_qcom_media",
+    "repository": "rashedsahaji/android_hardware_qcom_media",
     "target_path": "hardware/qcom/media-caf/msm8998",
     "branch": "lineage-16.0-caf-8998"
   },
    {
-    "repository": "LineageOS/android_hardware_qcom_audio",
+    "repository": "rashedsahaji/android_hardware_qcom_audio",
     "target_path": "hardware/qcom/audio-caf/msm8998",
     "branch": "lineage-16.0-caf-8998"
   },
