@@ -1,18 +1,18 @@
 [
   {
-    "repository": "rashedsahaji/android_hardware_qcom_display",
+    "repository": "rashedsahaji/hardware_qcom_display-caf_msm8998",
     "target_path": "hardware/qcom/display-caf/msm8998",
-    "branch": "lineage-16.0-caf-8998"
+    "branch": "pie-caf"
   },
    {
-    "repository": "LineageOS/android_hardware_qcom_media",
+    "repository": "rashedsahaji/hardware_qcom_media-caf_msm8998",
     "target_path": "hardware/qcom/media-caf/msm8998",
-    "branch": "lineage-16.0-caf-8998"
+    "branch": "pie-caf"
   },
    {
-    "repository": "LineageOS/android_hardware_qcom_audio",
+    "repository": "rashedsahaji/hardware_qcom_audio-caf_msm8998",
     "target_path": "hardware/qcom/audio-caf/msm8998",
-    "branch": "lineage-16.0-caf-8998"
+    "branch": "pie-caf"
   },
   {
     "repository": "srfarias/kernel_xiaomi_whyred",
