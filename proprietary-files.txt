@@ -1472,10 +1472,10 @@ vendor/bin/thermal-engine|8837f68c8c629ede72b9e1c8cb1b6ff946d5e234
 -vendor/lib64/libthermalclient.so|46324e6e3a57ca73e73c0f4ac8864135a265643c
 vendor/lib64/libthermalioctl.so|de12664badf4c1be3a2090043d4a25f45ccbef7b
 
-# Time services
--vendor/app/TimeService/TimeService.apk
-vendor/bin/time_daemon
-vendor/lib64/libtime_genoff.so
+# Time services - from Redmi K20 V10.3.6.0.PFJCNXM
+-vendor/app/TimeService/TimeService.apk|3c9e8763b1b81e71b378eb735eee8c6f657a26d4
+vendor/bin/time_daemon|45dd957e6f5922b0069ef691df3aef80d6f944f0
+vendor/lib64/libtime_genoff.so|c3d21c3b04cd7da6233685dac3fd5f0acdbf23be
 
 # Wifi - from LA.UM.7.2.r1-06900-sdm660.0
 vendor/bin/cnss-daemon|b81c238bdad56f7dc4a2161fee8cc6c92d5144c5
