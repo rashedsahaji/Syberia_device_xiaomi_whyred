@@ -2410,6 +2410,13 @@ case "$target" in
             echo 0-2 > /dev/cpuset/system-background/cpus
             echo 0-2,4-7 > /dev/cpuset/foreground/cpus
 
+            # set fifo prop if eas exist
+            if [[ "$available_governors" == *"schedutil"* ]]; then
+                echo "schedutil" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+                echo "schedutil" > /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor
+                setprop sys.use_fifo_ui 1
+            fi
+
             # disable thermal bcl hotplug to switch governor
             echo 0 > /sys/module/msm_thermal/core_control/enabled
 
