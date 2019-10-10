@@ -565,4 +565,7 @@
 
     <!--  Whether Multiuser UI should be shown -->
     <bool name="config_enableMultiUserUI">true</bool>
+
+    <!-- Whether device ignores the RSSNR signal implementation -->
+    <bool name="config_ignoreRssnrSignalLevel">true</bool>
 </resources>
