@@ -67,8 +67,12 @@ patchelf --remove-needed vendor.xiaomi.hardware.mtdservice@1.0.so "$BLOB_ROOT"/v
 patchelf --remove-needed vendor.xiaomi.hardware.mtdservice@1.0.so "$BLOB_ROOT"/vendor/lib64/libmlipay.so
 patchelf --remove-needed vendor.xiaomi.hardware.mtdservice@1.0.so "$BLOB_ROOT"/vendor/lib64/libmlipay@1.1.so
 
-patchelf --set-soname libicuuc-v28.so "$BLOB_ROOT"/vendor/lib/libicuuc-v28.so
-patchelf --set-soname libminikin-v28.so "$BLOB_ROOT"/vendor/lib/libminikin-v28.so
+sed -i 's/libicuuc.so/libicuuq.so/g' "$BLOB_ROOT"/vendor/lib/libicuuq.so
+sed -i 's/libicuuc.so/libicuuq.so/g' "$BLOB_ROOT"/vendor/lib/libMiCameraHal.so
+sed -i 's/libminikin.so/libminikiq.so/g' "$BLOB_ROOT"/vendor/lib/libMiCameraHal.so
+sed -i 's/libminikin.so/libminikiq.so/g' "$BLOB_ROOT"/vendor/lib/libMiCameraHal.so
+sed -i 's/libui.so/libuq.so/g' "$BLOB_ROOT"/vendor/lib/hw/camera.sdm660.so
+sed -i 's/libui.so/libuq.so/g' "$BLOB_ROOT"/vendor/lib/hw/camera.sdm660.so
 
 patchelf --add-needed libprocessgroup.so "$BLOB_ROOT"/vendor/lib/hw/sound_trigger.primary.sdm660.so
 patchelf --add-needed libprocessgroup.so "$BLOB_ROOT"/vendor/lib64/hw/sound_trigger.primary.sdm660.so
